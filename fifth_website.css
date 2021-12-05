@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+}
+
+.navbar {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+#logo img {
+    height: 50px;
+    width: 80px;
+    display: flex;
+    padding: 2px;
+    margin: 3px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 17rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    list-style: none;
+    padding: 5px 18px;
+    margin: 3px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+.navbar ul li a:hover {
+    color: black;
+    background-color: rgb(62 166 176 / 46%);
+    text-shadow: 2px 1px 5px;
+}
+
+.navbar ul li {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin: 0px;
+    position: relative;
+    top: -63px;
+    position: relative;
+}
+
+#home button {
+    display: inline;
+    width: 10rem;
+    margin: 16px;
+    border-radius: 11px;
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 2px solid lightblue;
+}
+
+#home button:hover {
+    cursor: pointer;
+    border: 2px solid #50e0e0;
+}
+
+#home::before {
+    content: "";
+    color: white;
+    background: url('https://images.pexels.com/photos/2693529/pexels-photo-2693529.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center center/ cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.primary {
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+    margin: 25px 0px 2px 0px;
+}
+
+#home p {
+    font-size: 1.2rem;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+.AboutUs {
+    text-align: center;
+    position: relative;
+    top: -64px;
+    height: 22rem;
+}
+
+section h3 {
+    color: #13141473;
+    font-size: 1rem;
+    margin: 2px 0px 21px 0px;
+}
+
+#Aboutus {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* bOX CONTANT */
+.box {
+    border-radius: 20px;
+    display: flex;
+    cursor: pointer;
+}
+
+.box img {
+    height: 15rem;
+    width: 14rem;
+    border-radius: 12px;
+}
+
+.box img:hover {
+    box-shadow: 1px 2px 7px black;
+    transform: translateY(-4px);
+}
+
+.box img::before {
+    content: "";
+    color: white;
+    position: absolute;
+    background-color: black;
+    z-index: 1;
+}
+
+.box h1 {
+    display: flex;
+    position: absolute;
+    top: 15rem;
+    color: white;
+    font-family: 'Readex Pro', sans-serif;
+    text-shadow: 1px 2px 3px black;
+    margin: 29px 68px 0px 42px;
+}
+
+/* SECTION 2 */
+.trips {
+    height: 29rem;
+    text-align: center;
+    position: relative;
+}
+#valuetrips{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#primary2 {
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+}
+.box1{
+    display: flex;
+    height: 17rem;
+    width: 17rem;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 1px 2px 7px black;
+    
+}
+.box1:hover{
+    box-shadow: 1px 2px 15px black;
+    transform: translateY(-4px);
+    cursor: pointer;
+}
+.box1 img{
+    height: 17rem;
+    width: 17rem;
+    overflow: auto;
+}
+.info{
+    border: 1px solid #0000008c;
+    display: flex;
+    position: absolute;
+    width: 17rem;
+    top: 17rem;
+    height: 53px;
+    border-radius: 3px;
+    left: -1px;
+    font-family: 'Baloo Da 2', cursive;
+    box-shadow: 1px 1px 7px black;
+    overflow: auto;
+}
+.price{
+    color: lightgoldenrodyellow;
+    position: absolute;
+    background-color: lightseagreen;
+    margin: 5px;
+    padding: 2px;
+}
+/* Section3 */
+.chooseus{
+    height:29rem ;
+    text-align: center;
+    position: relative;
+    margin: 27px;
+}
+#primary3{
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+}
+#choose{
+    display: flex;
+    justify-content: space-evenly;
+}
+.chooseus h4{
+    font-size: 1.2rem;
+    font-family: 'Merriweather', serif;
+    margin: 24px;
+}
+.box2{
+    height: 21rem;
+    width: 23rem;
+    border-radius: 5px;
+    position: relative;
+}
+.box2 img{
+    height: 9rem;
+    width: 10rem;
+}
+.box2 p{
+    margin: 5px;
+    padding: 6px;
+    font-family: 'Outfit', sans-serif;
+    line-height: 23px;
+}
+#last{
+    border: 2px solid black;
+    height:23rem ;
+    text-align: center;
+    position: relative;
+    /* margin: 27px; */
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.lastcontainer{
+    display:flex;
+    justify-content: center;
+    position: relative;
+}
+.box3{
+    /* border: 2px solid white; */
+    height: 17rem;
+    width: 23rem;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    margin: 4rem;
+    justify-content: left;
+    text-align: left;
+}
+.box3 h1{
+    font-size: 1.5rem;
+    font-family: 'Outfit', sans-serif;
+}
+.box3 p{
+    display: flex;
+    position: absolute;
+    font-size: 1rem;
+    top: 77px;
+    font-family: 'Outfit', sans-serif;
+}
+#garantee{
+    height: 8rem;
+    width: 11rem;
+    top: 9rem;
+    position: absolute;
+    left: 0rem;
+}
+#img2{
+    height: 8rem;
+    width: 10rem;
+    top: 9rem;
+    position: absolute;
+    left: 12rem;
+}
+.icon{
+    height: 32px;
+    width: 36px;
+    position: absolute;
+    top: 4rem;
+}
+
